@@ -28,5 +28,11 @@ namespace FinalIO
             ClassTamano LgTamano = new ClassTamano();
             LgTamano.combos(comboBox1, comboBox2, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20, t21, t22, t23, t24, t25, d1, d2, d3, d4, d5, o1, o2, o3, o4, o5);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ClassNO LgNO = new ClassNO();
+            LgNO.NO(o1, o2, o3, o4, o5, d1, d2, d3, d4, d5);
+        }
     }
 }
