@@ -54,6 +54,15 @@ namespace FinalIO
             sumo = of1 + of2 + of3 + of4 + of5;
             sumd = de1 + de2 + de3 + de4 + de5;
 
+            frm.tn1.Text = t1.Text; frm.t2.Text = t2.Text; frm.t3.Text = t3.Text; frm.t4.Text = t4.Text; frm.t5.Text = t5.Text;
+            frm.t6.Text = t6.Text; frm.t7.Text = t7.Text; frm.t8.Text = t8.Text; frm.t9.Text = t9.Text; frm.t10.Text = t10.Text;
+            frm.t11.Text = t11.Text; frm.t12.Text = t12.Text; frm.t13.Text = t13.Text; frm.t14.Text = t14.Text; frm.t15.Text = t15.Text;
+            frm.t16.Text = t16.Text; frm.t17.Text = t17.Text; frm.t18.Text = t18.Text; frm.t19.Text = t19.Text; frm.t20.Text = t20.Text;
+            frm.t21.Text = t21.Text; frm.t22.Text = t22.Text; frm.t23.Text = t23.Text; frm.t24.Text = t24.Text; frm.t25.Text = t25.Text;
+
+            frm.d1.Text = d1.Text; frm.d2.Text = d2.Text; frm.d3.Text = d3.Text; frm.d4.Text = d4.Text; frm.d5.Text = d5.Text;
+            frm.o1.Text = o1.Text; frm.o2.Text = o2.Text; frm.o3.Text = o3.Text; frm.o4.Text = o4.Text; frm.o5.Text = o5.Text;
+
             if (sumo == sumd)
             {
                 frm.Show();
